@@ -1,0 +1,26 @@
+[
+    {
+        "company":"EDP Group, Israel",        
+        "start_date":"04.2021",
+        "end_date":"Current",
+        "role":"Full Stack Developer",
+        "content":"",
+        "location":"Remote"
+    },
+    {
+        "company":"Taldor, Israel",
+        "start_date":"11.2020",
+        "end_date":"04.2021",
+        "role":"Full Stack Developer",
+        "content":"",
+        "location":"Remote"
+    },
+    {        
+        "company":"Matrix",
+        "start_date":"05.2020",
+        "end_date":"11.2020",
+        "role":"Full Stack Developer",
+        "content":"",
+        "location":"Israel, Jerusalem"
+    }
+]

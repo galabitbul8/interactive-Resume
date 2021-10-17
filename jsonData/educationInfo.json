@@ -1,0 +1,26 @@
+[
+    {
+        "school":"John Bryce School",        
+        "start_date":"7.2021",
+        "end_date":"8.2021",
+        "subject":"Linux Administration Course",
+        "content":"",
+        "location":"Tel-Aviv, Israel"
+    },
+    {
+        "school":"JCE - Azrieli – College of Engineering",
+        "start_date":"10.2017",
+        "end_date":"8.2021",
+        "subject":"Bachelor of Science: Software Engineering",
+        "content":"",
+        "location":"Jerusalem, Israel"
+    },
+    {
+        "school":"Ort Givat Ram",
+        "start_date":"2014",
+        "end_date":"2015",
+        "subject":"High School Technological Diploma: Computer and Electronics",
+        "content":"",
+        "location":"Jerusalem, Israel"
+    }
+]

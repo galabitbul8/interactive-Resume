@@ -53,7 +53,6 @@ footer{
   padding-bottom:0rem ;
   font-size: 2.5rem;
 
-
 }
 
 img{
@@ -63,6 +62,19 @@ img{
 a{
   padding-left: 2%;
   padding-right: 2%;
+  color: white;
+  text-decoration: none;
+}
+h3{
+  text-align: center;
+}
+h4,h6{
+  margin: auto;
+}
+
+
+#social{
+  text-align: center;
 }
 
 .light{
@@ -71,5 +83,55 @@ a{
 
 .dark{
   background: var(--dark-bg);
+}
+
+
+/*table style*/
+table{
+  background: rgba(54, 54, 54, 0.4);
+  border-collapse: collapse;
+  width: 90%;
+  margin: 5%;
+}
+
+td{
+  border-bottom:3px solid whitesmoke;
+}
+td.stars{
+  width: 20%;
+  text-align: right;
+}
+td.name{
+  width: 80%;
+  text-align: left;
+}
+/* td > .rating{
+  
+} */
+tr:hover {
+  background: rgb(44, 44, 44);
+  transform: scale(1.5, 1ms);
+}
+.rating{
+  font-size: 20px;
+}
+
+tr:hover > td > .rating{
+  font-size: 25px;
+  transition: all 300ms ease 0ms
+}
+
+.educationRow{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 5%;
+}
+.title{
+  grid-column: 1/1;
+  margin-right: 15%;
+}
+
+.content{
+  grid-column: 2/ span 3;
 }
 

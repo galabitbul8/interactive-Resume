@@ -3,8 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <linkrel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/main.js"></script>
+
     <title>Gal David Abitbul</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/8c041aaf6a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
   <body>
     <canvas id="bg"></canvas>
@@ -31,18 +40,59 @@
         <section class="light">
           <h2>Experiences</h2>
           <hr/>
+          <p>
+            <h3>Education</h3>
+              <div id="educationTable"></div>
+          </p>
+          <p>
+            <h3>Careers</h3>
+            <div>
+              <div id="careersTable"></div>
+              </div>
+          </p>
+          
+
         </section>
 
         <section class="light">
           <h2>Abilities</h2>
           <hr/>
-          <p></p>
+          <p>
+            <h3>Skills</h3>
+            <table >
+              <tbody id="skillsTable"></tbody>
+            </table>
+          </p>
+          <p>
+            <h3>Languages</h3>
+            <table >
+              <tbody id="languagesTable"></tbody>
+            </table>
+          </p>
+          <p>
+            <h3>Tools & Software</h3>
+            <table >
+              <tbody id="toolsTable"></tbody>
+            </table>
+          </p>
         </section>
         
         <section class="light">
           <h2>Projects</h2>
           <hr/>
-          <p></p>
+          <p class="cerusale">
+            <div class="carousel">
+              <a href="#">
+                <img src="images/moon.jpg" class="carousel-item">
+              </a>
+              <a href="#">
+                <img src="images/moon.jpg" class="carousel-item">
+              </a>
+              <a href="#">
+                <img src="images/moon.jpg" class="carousel-item">
+              </a>
+            </div>
+          </p>
           
         </section>
 
@@ -50,22 +100,19 @@
           <h2>Contact</h2>
           <hr/>
           <h3>Social</h3>
-          <p>
+          <p id="social">
             <a href="https://github.com/galabitbul8">
-              <img src="images/icons/github.png"/>
+              <i class="fab fa-github-square"></i>
             </a>
             
             <a href="mailto:galabitbul@gmail.com">
-              <img src="images/icons/gmail.png"/>
+              <i class="fas fa-envelope-open-text"></i>
             </a>
             <a href="https://www.linkedin.com/in/gal-david-abitbol-02478319a/">
-              <img src="images/icons/linkedin.png"/>
+              <i class="fab fa-linkedin"></i>
             </a>
           </p>
-        </footer>
-        
-
+        </footer>        
       </main>
-    <script type="module" src="/main.js"></script>
   </body>
 </html>

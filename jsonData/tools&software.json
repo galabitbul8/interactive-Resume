@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Visual Studio",
+        "rating":5
+    },
+    {
+        "name":"VS CODE",
+        "rating":5
+    },
+    {
+        "name":"MS Office",
+        "rating":4
+    },
+    {
+        "name":"Oracle Database",
+        "rating":4
+    },
+    {
+        "name":"MongoDB",
+        "rating":3
+    },
+    {
+        "name":"PostgreSQL",
+        "rating":3
+    }
+]

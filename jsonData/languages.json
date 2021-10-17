@@ -1,0 +1,14 @@
+[
+    {
+        "name":"English",
+        "rating":5
+    },
+    {
+        "name":"Hebrew",
+        "rating":5
+    },
+    {
+        "name":"German",
+        "rating":2
+    }
+]

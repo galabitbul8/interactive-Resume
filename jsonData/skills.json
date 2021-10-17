@@ -1,0 +1,66 @@
+[
+    {
+        "name":"Bootstrap Framework",
+        "rating":3
+    },
+    {
+        "name":"CSS(3)",
+        "rating":4
+    },
+    {
+        "name":"HTML(5)",
+        "rating":5
+    },
+    {
+        "name":"JSON",
+        "rating":4
+    },
+    {
+        "name":"AngularJS",
+        "rating":4
+    },
+    {
+        "name":"React & Redux",
+        "rating":3
+    },
+    {
+        "name":"JavaScript",
+        "rating":4
+    },
+    {
+        "name":"TypeScript",
+        "rating":4
+    },
+    {
+        "name":"React Native",
+        "rating":3
+    },
+    {
+        "name":"Manual testing",
+        "rating":5
+    },
+    {
+        "name":"Linux Administration",
+        "rating":4
+    },
+    {
+        "name":"AWS Services",
+        "rating":4
+    },
+    {
+        "name":"Python",
+        "rating":3
+    },
+    {
+        "name":"C#",
+        "rating":4
+    },
+    {
+        "name":".NET CORE",
+        "rating":5
+    },
+    {
+        "name":"JAVA",
+        "rating":3
+    }
+]
