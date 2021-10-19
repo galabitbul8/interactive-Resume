@@ -1,0 +1,30 @@
+[
+    {
+        "picture":"images/moon.jpg",
+        "name":"SelfServices",
+        "company":"Minestry of education",
+        "info":"info info info inf",
+        "location":"Israel"
+    },
+    {
+        "picture":"",
+        "name":"TA'AL",
+        "company":"TA'AL",
+        "info":"info info info info",
+        "location":"Israel"
+    },
+    {
+        "picture":"",
+        "name":"HFL application",
+        "company":"Hero for life",
+        "info":"info info info inf",
+        "location":"Israel"
+    },
+    {
+        "picture":"",
+        "name":"Interactive Resume",
+        "company":"Freelance",
+        "info":"info info info inf",
+        "location":"Israel"
+    }
+]

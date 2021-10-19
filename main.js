@@ -58,7 +58,7 @@ function build3Dbg(){
   scene.background = spaceTexture;
   
   // adding a box with my image
-  const galTexture = new THREE.TextureLoader().load('images/gal.png');
+  const galTexture = new THREE.TextureLoader().load('images/gal.jpg');
   const gal = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
     new THREE.MeshBasicMaterial({map:galTexture})
@@ -218,6 +218,30 @@ let fiilCareers = function(data,id){
     `
   }
 }
+
+
+let addProjectCards = function(data,id){
+  for(let index in data){
+    let picture = data[index].picture;
+    let name = data[index].name;
+    let company = data[index].company;
+    let info = data[index].info;
+    let location = data[index].location;
+
+    document.getElementById(id).innerHTML +=
+    `
+    <div class="card"">
+      <div class="card-image" style=" background: url('${picture}');"></div>
+        <div class="card-text">
+          <span class="company">${company}</span>
+          <h2>${name + ", " + location}</h2>
+          <p>${info}</p>
+        </div>
+      </div>
+    </div>
+    `
+  }
+}
   //get the json Skills file 
   fetch('./jsonData/Skills.json')
   .then(results => results.json())
@@ -232,21 +256,21 @@ let fiilCareers = function(data,id){
     fillTable(data,"languagesTable"); // fill languagesTable
   });
   
-  //get the json Tools & Software  file
+  //get the json Tools & Software file
   fetch('./jsonData/tools&software.json')
   .then(results => results.json())
   .then(data => {
     fillTable(data,"toolsTable"); // fill toolsTable
   });
 
-  //get the json educationInfo  file
+  //get the json educationInfo file
   fetch('./jsonData/educationInfo.json')
   .then(results => results.json())
   .then(data => {
     fiilExperiences(data,"educationTable"); // fill educationTable
   });
 
-  //get the json educationInfo  file
+  //get the json educationInfo file
 
   fetch('./jsonData/careersInfo.json')
   .then(results => results.json())
@@ -254,7 +278,10 @@ let fiilCareers = function(data,id){
     fiilCareers(data,"careersTable"); // fill educationTable
   });
 
-// adding carusela with the project I made
-  //fill the carusela
-  //desing the carusela
-  
+  //get the json projects Info file
+
+  fetch('./jsonData/projectsData.json')
+  .then(results => results.json())
+  .then(data => {
+    addProjectCards(data,"cards"); // fill educationTable
+  });
