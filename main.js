@@ -230,8 +230,8 @@ let addProjectCards = function(data,id){
 
     document.getElementById(id).innerHTML +=
     `
-    <div class="card"">
-      <div class="card-image" style=" background: url('${picture}');"></div>
+    <div class="card rgb">
+      <div class="card-image" style=" background: linear-gradient(#fff0 0%,#fff0 70%,#1d1d1d 100%), url('${picture}');" data-tilt data-tilt-scale="1.1"></div>
         <div class="card-text">
           <span class="company">${company}</span>
           <h2>${name + ", " + location}</h2>
@@ -284,4 +284,9 @@ let addProjectCards = function(data,id){
   .then(results => results.json())
   .then(data => {
     addProjectCards(data,"cards"); // fill educationTable
+    VanillaTilt.init(document.querySelectorAll(".card"),{
+      glare: true,
+      reverse: true,
+      "max-glare": 0.5
+    });
   });

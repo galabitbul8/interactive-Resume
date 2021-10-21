@@ -10,6 +10,7 @@
     "vite": "^2.6.7"
   },
   "dependencies": {
-    "three": "^0.133.1"
+    "three": "^0.133.1",
+    "vanilla-tilt": "^1.7.2"
   }
 }
